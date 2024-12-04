@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letramento Digital</title>
+    <link rel="shortcut icon" type="image/png" href="../img/logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <div class="container">
+                <!-- Logo/Marca -->
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" alt="Letramento Digital" height="50"
+                        class="d-inline-block align-text-top me-2">
+                </a>
+
+                <!-- Botão "Hambúrguer" para dispositivos móveis -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Itens do Menu -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../equipe.html">Conheça a Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../eventosfuturos.html">Próximo Evento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../eventospassados.html">Encontros Anteriores</a>
+                        </li>
+                    </ul>
+
+                    <!-- Botão de Ação -->
+                    <a target="_blank" href="https://wa.me/5544984373240" class="btn btn-primary ms-3">
+                        <img src="../img/174879.png" alt="icon_whatsapp">Fale Conosco</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Conteúdo de Teste (para visualização) -->
+    <div class="container mt-5">
+        <h1><strong>Bem-vindo ao Letramento Digital</strong></h1>
+        <div class="intro">
+            <p>Este projeto de extensão pretende capacitar os idosos com habilidades digitais essenciais para promover
+                uma participação mais ativa nesta era digital, fortalecendo a conexão entre gerações. O projeto é
+                desenvolvido pela prof <strong>Iara Carnevale de Almeida</strong> - docente no curso de Sistemas para
+                Internet, UniALFA
+                Umuarama / PR - apoiado pelos alunos deste curso.</p>
+        </div>
+    </div>
+
+    <!-- Carrossel com Imagens -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="../img/carrossel1.jpg" class="d-block w-100" alt="Imagem 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Quem Somos</h5>
+                    <p>Descubra mais sobre nosso projeto.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/carrossel2.jpg" class="d-block w-100" alt="Imagem 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Nossa Missão</h5>
+                    <p>Conectando ideias e soluções.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/carrossel3.jpg" class="d-block w-100" alt="Imagem 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Participe Conosco</h5>
+                    <p>Junte-se à nossa comunidade.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+<!-- Cards Section -->
+<div class="container my-5">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Cronograma Encontros</strong></h5>
+                    <img src="../img/homepage1.jpg" alt="">
+                    <p class="card-text">Saiba mais sobre os próximos encontros e eventos que estamos organizando.</p>
+                    <a href="../eventosfuturos.html" class="btn btn-primary">Ver Mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Encontros Anteriores</strong></h5>
+                    <p class="card-text">Confira o que já foi discutido e as conclusões dos nossos encontros passados.
+                    </p>
+                    <a href="../eventospassados.html" class="btn btn-primary">Ver Mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Conheça a Equipe</strong></h5>
+                    <p class="card-text">Conheça as pessoas por trás deste projeto e como elas podem te ajudar.</p>
+                    <a href="../equipe.html" class="btn btn-primary">Ver Mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Projeto Letramento Digital</p>
+    <a target="_blank" href="https://wa.me/5544984373240" class="text-white">Inscrição pelo WhatsApp</a>
+</footer>
+
+<!-- Bootstrap JS e dependências -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

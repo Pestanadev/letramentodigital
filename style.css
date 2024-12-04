@@ -1,0 +1,70 @@
+
+/* Ajustes do Carrossel */
+.carousel-item img {
+    height: 950px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.intro {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #b5d4f3;
+    padding: 10px 0;
+}
+
+.navbar img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.navbar-brand img {
+    width: 148px;
+    height: 130px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.btn-primary {
+    background-color: #13b39d;
+    border-color: #095b5e;
+}
+
+.btn-primary:hover {
+    background-color: #1ef7f7;
+    border-color: #04456b;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.nav-link:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+
+
